@@ -1,0 +1,12 @@
+[Unit]
+Description=Network LED service for eth0
+After=network.target
+
+[Service]
+ExecStart=/home/sdr/bin/net_led eth0
+KillSignal=SIGINT
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target 

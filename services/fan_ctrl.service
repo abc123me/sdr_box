@@ -1,0 +1,11 @@
+[Unit]
+Description=Fan control service
+
+[Service]
+ExecStart=/home/sdr/bin/fan_ctrl
+KillSignal=SIGINT
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

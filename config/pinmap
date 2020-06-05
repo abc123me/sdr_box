@@ -1,0 +1,7 @@
+act_led=70
+net_led=84
+sdr1_led=102
+sdr2_led=100
+uc_ctrl=85
+tx_ctrl=86
+fan_ctrl=97

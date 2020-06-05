@@ -1,0 +1,11 @@
+[Unit]
+Description=ACT LED Service
+
+[Service]
+ExecStart=/home/sdr/bin/act_led
+KillSignal=SIGINT
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
