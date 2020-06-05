@@ -1,0 +1,3 @@
+[submodule "rtl-sdr"]
+	path = rtl-sdr
+	url = https://github.com/abc123me/rtl-sdr.git
